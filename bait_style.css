@@ -1,0 +1,148 @@
+/*
+ Live Bait Website
+ By andrew Sanders
+ Style Sheet
+ 7/20/22
+*/
+
+html{
+	font-family: Georgia;
+	font-size: 50px;
+	color: #35662d;
+	background-image: url('water.gif');
+	background-size: 100%;
+	height: 100%;
+	background-repeat: repeat-y;
+}
+body {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	
+	
+}
+article{
+	font-size: 20px;
+	display: block;
+	width: 75%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.inventory{
+	background-image: url('shop1.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	
+}
+.invText{
+	background-color: rgba(178, 178, 178, 0.73);
+	width: 60%;
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 8px;
+}
+.invHead{
+	text-align: center;
+	
+}
+h1{
+	font-size: 35px;
+	color: black;
+}
+h2 {
+	font-size: 15px;
+	color: Black;
+	
+}
+
+.LeftText{
+	float: left;
+	text-align: center;
+	width: 50%;
+	
+	
+}
+.RightText{
+	float: right;
+	text-align: left;
+	width: 30%;
+}
+ul li{
+	margin-left: 30px;
+	text-align: left;
+	
+	font-size: 20px;
+	color: black;
+
+}
+h3{
+	font-size: 23px;
+	color: white;
+	text-shadow: 0 0 4px #ce2929;
+}
+.header{
+	margin-left: 50px;
+	margin-right: 500px;
+	padding-top: 60px;
+	float: none;
+	text-align: left;
+	background-color: white;
+	width: 43%
+	font-size: 50px;
+}
+header{
+	display: block;
+	background-image: url('Fish1.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 700px;
+	width: 90%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	color: #701c1c;
+	text-shadow: 0 0 4px #47d36a;
+}
+aside{
+	display: inline-block;
+	background-image: url('bait1.png');
+	background-size: 150%;
+	
+	background-repeat: no-repeat;
+	
+	width: 100%;
+}
+.baitText{
+	color: white;
+	background-color: rgba(178, 178, 178, 0.73);
+	width: 80%;
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 8px;
+	text-align: left;
+
+}
+.navbar{
+	overflow: hidden;
+	background-color: #666666;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+@media (max-width: 1300px) {
+	aside{
+		background-color: rgba(178, 178, 178, 0.73);
+	}
+	.header{
+		font-size: 20;
+	}
+}
